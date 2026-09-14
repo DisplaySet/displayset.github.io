@@ -3,21 +3,48 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>DisplayPreset — Display & Window Layouts</title>
-  <meta name="description" content="Save and restore display configurations and window layouts on macOS.">
-  <link rel="icon" type="image/svg+xml" href="assets/displaypreset-icon.svg">
-  <link rel="apple-touch-icon" href="assets/displaypreset-icon.svg">
+  <meta name="description" content="DisplayPreset saves and restores multi-display configurations on macOS.">
+  <title>DisplayPreset — Display Presets for Mac</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="nav"><a class="brand" href="."><img src="assets/displaypreset-icon.svg" alt="" width="34" height="34"><span>DisplayPreset</span></a><nav><a href="#features">Features</a><a href="#screenshots">Screenshots</a><a href="#pricing">Pricing</a><a href="support.html">Support</a><a href="privacy.html">Privacy</a><a href="zh-hans.html">中文</a></nav></header>
+  <header class="nav">
+    <a class="brand" href="index.html"><img src="assets/displaypreset-icon.svg" width="32" height="32" alt="">DisplayPreset</a>
+    <nav aria-label="Primary"><a href="#features">Features</a><a href="guide.html">Guide</a><a href="#pricing">Pricing</a><a href="support.html">Support</a><a href="zh-hans.html">中文</a></nav>
+  </header>
   <main>
-    <section class="hero"><img class="hero-icon" src="assets/displaypreset-icon.svg" alt="DisplayPreset app icon" width="88" height="88"><p class="eyebrow">macOS workspace utility</p><h1>Your displays and windows, ready when you are.</h1><p class="lede">DisplayPreset saves display configurations and window layouts so you can restore the workspace you need in a moment.</p><div class="actions"><a class="button primary" href="support.html#testflight">TestFlight access</a><a class="button secondary" href="#pricing">See pricing</a></div><p class="note">TestFlight access may require an invitation.</p></section>
-    <section id="features" class="grid"><article><span class="icon">▦</span><h2>Display profiles</h2><p>Capture the arrangement and mode of your connected displays, then bring it back when your setup changes.</p></article><article><span class="icon">⌗</span><h2>Window layouts</h2><p>Save a workspace layout and restore application windows with the positions that fit your workflow.</p></article><article><span class="icon">⌁</span><h2>Local-first</h2><p>Your profiles stay on your Mac. No account or cloud sync is required for this MVP.</p></article></section>
-    <section id="screenshots" class="screenshots"><p class="eyebrow">See it in action</p><h2>A clearer way to get back to work.</h2><div class="screenshot-grid"><figure><img src="assets/screenshots/display-profiles.png" alt="DisplayPreset showing saved display profiles for a built-in Retina Display and LG Ultra HD" loading="lazy"><figcaption><strong>Display profiles</strong><span>Save connected displays and restore their arrangement and mode.</span></figcaption></figure><figure><img src="assets/screenshots/window-layouts.png" alt="DisplayPreset showing window layout presets and saved layouts" loading="lazy"><figcaption><strong>Window layouts</strong><span>Choose a preset or apply a saved layout to the current display.</span></figcaption></figure></div></section>
-    <section id="pricing" class="pricing"><p class="eyebrow">One-time unlocks</p><h2>Start free. Unlock only what you need.</h2><div class="price-grid"><div><h3>Free</h3><p class="price">$0</p><p>1 display profile<br>1 window layout</p></div><div><h3>Display profiles</h3><p class="price">$2.99</p><p>Unlimited display profiles</p></div><div><h3>Window layouts</h3><p class="price">$2.99</p><p>Unlimited window layouts</p></div><div class="featured"><h3>Complete unlock</h3><p class="price">$3.99</p><p>Unlimited profiles and layouts</p></div></div></section>
-    <section class="permission"><h2>Accessibility permission</h2><p>macOS requires Accessibility permission for DisplayPreset to read and reposition application windows. DisplayPreset explains this request when the feature is first used.</p></section>
+    <section class="hero">
+      <img class="hero-icon" src="assets/displaypreset-icon.svg" width="88" height="88" alt="DisplayPreset icon">
+      <div class="eyebrow">macOS display utility</div>
+      <h1>Your display setup, ready when you are.</h1>
+      <p class="lede">DisplayPreset saves connected display configurations so you can restore the setup you need in one click.</p>
+      <div class="actions"><a class="button primary" href="https://apps.apple.com/app/id6804091344">View on the Mac App Store</a><a class="button secondary" href="guide.html">Read the guide</a></div>
+      <p class="note">Designed for local-first use. DisplayPreset only manages display profiles.</p>
+    </section>
+
+    <section id="features">
+      <div class="grid">
+        <article><div class="icon">▣</div><h2>Display profiles</h2><p>Save a named configuration for the displays connected to your Mac and restore it whenever you need it.</p></article>
+        <article><div class="icon">↔</div><h2>Stable matching</h2><p>Profiles use the display information available to macOS, so reconnecting the same displays is simple and predictable.</p></article>
+        <article><div class="icon">⌘</div><h2>Local-first</h2><p>Your profiles stay on your Mac. Import and export JSON files when you want a portable backup.</p></article>
+      </div>
+    </section>
+
+    <section class="screenshots">
+      <h2>A clear view of your displays.</h2>
+      <div class="screenshot-grid">
+        <figure><img src="assets/screenshots/display-profiles.png" alt="DisplayPreset display profiles screen"><figcaption><strong>See what is connected</strong><span>Review the current display arrangement and saved profiles in one place.</span></figcaption></figure>
+      </div>
+    </section>
+
+    <section id="pricing" class="pricing">
+      <h2>Start simple. Unlock when you need more.</h2>
+      <div class="price-grid">
+        <div><h3>Free</h3><p class="price">$0</p><p>Save and use one display profile.</p></div>
+        <div class="featured"><h3>Unlimited Display Profiles</h3><p class="price">$1.99</p><p>One-time purchase for any number of display profiles. Final price is shown by the App Store.</p></div>
+      </div>
+    </section>
   </main>
-  <footer><span>© 2026 DisplayPreset</span><span><a href="support.html">Support</a> · <a href="privacy.html">Privacy</a></span></footer>
+  <footer><span>© 2026 DisplayPreset</span><span><a href="guide.html">Guide</a> · <a href="support.html">Support</a> · <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a> · <a href="zh-hans.html">中文</a></span></footer>
 </body>
 </html>
