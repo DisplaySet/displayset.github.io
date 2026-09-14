@@ -13,3 +13,8 @@ The current App Store MVP is focused on saving and restoring display profiles on
 - `support.html` — support and troubleshooting
 
 The site is published as a GitHub Pages static site at https://displayset.github.io/.
+
+The current Lite screenshot assets in `assets/screenshots/display-profiles.png` and
+`assets/screenshots/display-profiles-zh.png` show the display-profile-only MVP. The
+legacy window-layout images are retained as historical assets and are not linked
+from the Lite product pages.
