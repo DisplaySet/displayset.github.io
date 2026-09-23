@@ -1,13 +1,44 @@
 <!doctype html>
 <html lang="en">
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Support — DisplayPreset</title><link rel="stylesheet" href="styles.css"></head>
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Support — DisplayPreset & DisplayPilot</title><link rel="stylesheet" href="styles.css?v=2"></head>
 <body>
-  <header class="nav"><a class="brand" href="index.html"><img src="assets/displaypreset-icon.svg" width="32" height="32" alt="">DisplayPreset</a><nav><a href="index.html">Home</a><a href="guide.html">Guide</a><a href="privacy.html">Privacy</a><a href="zh-hans.html">中文</a></nav></header>
-  <main class="article"><div class="eyebrow">Support</div><h1>DisplayPreset Support</h1><p>DisplayPreset is a focused macOS utility for saving and restoring display profiles.</p>
+  <header class="nav"><a class="brand" href="index.html"><img src="assets/displaypreset-icon.png" width="32" height="32" alt="">DisplayPreset</a><input type="checkbox" id="nav-toggle" class="nav-menu-toggle" aria-label="Toggle navigation menu"><label for="nav-toggle" class="nav-menu-btn" aria-hidden="true"><span class="icon-open">☰</span><span class="icon-close">✕</span></label><nav><a href="index.html">Home</a><a href="displaypilot.html">DisplayPilot</a><a href="guide.html">Guide</a><a href="privacy.html">Privacy</a><a href="zh-hans-support.html">中文</a></nav></header>
+  <main class="article"><div class="eyebrow">Support</div><h1>DisplayPreset & DisplayPilot Support</h1><p>DisplayPreset saves and restores display configurations. DisplayPilot orchestrates window layouts and application workspace sets.</p>
     <h2 id="getting-started">Getting started</h2><p>Open DisplayPreset with the displays you want to save connected. Review the detected displays, choose Save, and give the profile a name. Select a saved profile whenever you want to restore it.</p>
-    <h2 id="restore">Restore purchases</h2><p>Open the unlock screen and choose Restore Purchases. Make sure you are using the same App Store account that made the purchase. Apple may take a moment to return the purchase status.</p>
-    <h2>Common questions</h2><p><strong>A display is missing.</strong> Confirm that macOS itself shows the display, then reconnect the cable or adapter and try again. A profile cannot restore a display that macOS does not currently identify.</p><p><strong>Can I move profiles to another Mac?</strong> Export a JSON backup, move it securely, and import it on the other Mac.</p><p><strong>Where is my purchase?</strong> Purchases are tied to your App Store account. Use Restore Purchases rather than buying again.</p>
-    <h2 id="contact">Contact us</h2><p>Please include your macOS version, DisplayPreset version, display models, and the steps that reproduce the issue. Email <a href="mailto:support@displayset.app">support@displayset.app</a>.</p>
+    <h2 id="restore">Restore purchases</h2><p>Open the unlock screen in DisplayPreset and choose Restore Purchases. Make sure you are using the same App Store account that made the purchase. Apple may take a moment to return the purchase status.</p>
+
+    <h2 id="displaypilot-faq">DisplayPilot Licensing & FAQ</h2>
+    <p><strong>Why does DisplayPilot recognize DisplayPreset?</strong><br>DisplayPreset is distributed via the Mac App Store in a secure sandbox, handling payments and licensing via Apple StoreKit. DisplayPilot provides advanced window management and workspace automation requiring macOS Accessibility permissions. As an introductory promotion, DisplayPilot recognizes existing DisplayPreset purchases on the same Mac.</p>
+
+    <p><strong>Does purchasing DisplayPreset create a permanent commitment for DisplayPilot?</strong><br><strong>No.</strong> DisplayPreset is a standalone product sold on the Mac App Store for multi-display profile management. Purchasing DisplayPreset is solely for unlocking its own features and carries no perpetual licensing commitment or bundled entitlement for DisplayPilot. The recognition between the two apps is offered as a limited-time promotional benefit and may change in future releases.</p>
+
+    <p><strong>How do I unlock DisplayPilot after purchasing?</strong><br>
+    Follow these straightforward steps:<br>
+    1. Download and install DisplayPreset from the Mac App Store;<br>
+    2. Complete the in-app purchase in DisplayPreset;<br>
+    3. Install and launch DisplayPilot on the same Mac;<br>
+    4. Click “Recheck Authorization” in DisplayPilot (or relaunch the app);<br>
+    5. DisplayPilot validates the Apple-signed StoreKit receipt via local App Group storage and unlocks immediately.
+    </p>
+
+    <p><strong>Do both apps need to be installed on the same Mac?</strong><br>Yes. The license bridge relies on Apple's local App Group container on the physical Mac. DisplayPilot reads the StoreKit receipt created by DisplayPreset on that same device.</p>
+
+    <p><strong>How do I restore purchases on a new Mac?</strong><br>On your new Mac, open the Mac App Store, install DisplayPreset under your Apple ID, and tap “Restore Purchases”. Once confirmed, launch DisplayPilot and click “Recheck Authorization”.</p>
+
+    <p><strong>Does DisplayPilot charge or process payments directly on this website?</strong><br><strong>No.</strong> This website does not process payments, sell activation keys, or bypass the App Store in any way. All financial transactions are handled securely by Apple inside DisplayPreset.</p>
+
+    <h2>General questions</h2><p><strong>A display is missing:</strong> Confirm that macOS itself shows the display, then reconnect the cable or adapter and try again. A profile cannot restore a display that macOS does not currently identify.</p><p><strong>Can I move profiles to another Mac?</strong> Export a JSON backup, move it securely, and import it on the other Mac.</p>
+    <h2 id="contact">Contact us</h2><p>Please include your macOS version, app versions, display models, and the steps that reproduce the issue. Email <a href="mailto:support@displayset.app">support@displayset.app</a>.</p>
   </main>
-  <footer><span>© 2026 DisplayPreset</span><span><a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a> · <a href="zh-hans.html">中文</a></span></footer>
+  <footer>
+    <span>© 2026 DisplayPreset & DisplayPilot</span>
+    <span>
+      <a href="index.html">DisplayPreset</a> ·
+      <a href="displaypilot.html">DisplayPilot</a> ·
+      <a href="guide.html">Guide</a> ·
+      <a href="privacy.html">Privacy</a> ·
+      <a href="terms.html">Terms</a> ·
+      <a href="zh-hans-support.html">中文</a>
+    </span>
+  </footer>
 </body></html>

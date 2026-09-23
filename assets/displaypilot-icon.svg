@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="background" x1="120" y1="60" x2="900" y2="980" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4E392B"/>
+      <stop offset="0.5" stop-color="#8A6848"/>
+      <stop offset="1" stop-color="#D1AD78"/>
+    </linearGradient>
+    <linearGradient id="window" x1="220" y1="184" x2="790" y2="810" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFDF7" stop-opacity="0.98"/>
+      <stop offset="1" stop-color="#E9E5D9" stop-opacity="0.94"/>
+    </linearGradient>
+    <linearGradient id="proBadge" x1="672" y1="810" x2="920" y2="916" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#183B67"/>
+      <stop offset="1" stop-color="#0D203A"/>
+    </linearGradient>
+    <filter id="shadow" x="40" y="50" width="944" height="930" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#334252" flood-opacity="0.34"/>
+    </filter>
+    <filter id="badgeShadow" x="640" y="778" width="310" height="164" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="10" stdDeviation="9" flood-color="#13243A" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <rect width="1024" height="1024" fill="url(#background)"/>
+
+  <g>
+    <g filter="url(#shadow)">
+      <rect x="100" y="112" width="400" height="800" rx="58" fill="#252827"/>
+      <path d="M100 170C100 138 126 112 158 112H442C474 112 500 138 500 170V210H100V170Z" fill="#3B3E3D"/>
+      <circle cx="150" cy="160" r="12" fill="#FF6A7A"/>
+      <circle cx="188" cy="160" r="12" fill="#FFCF5C"/>
+      <circle cx="226" cy="160" r="12" fill="#55D98B"/>
+      <rect x="148" y="342" width="196" height="28" rx="14" fill="#FFFDF7" opacity="0.72"/>
+      <rect x="148" y="394" width="250" height="18" rx="9" fill="#FFFDF7" opacity="0.36"/>
+      <rect x="148" y="434" width="224" height="18" rx="9" fill="#FFFDF7" opacity="0.28"/>
+      <rect x="148" y="474" width="176" height="18" rx="9" fill="#FFFDF7" opacity="0.22"/>
+      <rect x="148" y="540" width="116" height="18" rx="9" fill="#C4773F" opacity="0.88"/>
+      <rect x="278" y="540" width="120" height="18" rx="9" fill="#8D8A78" opacity="0.34"/>
+      <rect x="148" y="588" width="250" height="18" rx="9" fill="#FFFDF7" opacity="0.18"/>
+      <rect x="148" y="628" width="190" height="18" rx="9" fill="#FFFDF7" opacity="0.14"/>
+      <rect x="148" y="690" width="220" height="18" rx="9" fill="#FFFDF7" opacity="0.11"/>
+      <rect x="148" y="730" width="166" height="18" rx="9" fill="#FFFDF7" opacity="0.08"/>
+    </g>
+
+    <g filter="url(#shadow)">
+      <rect x="528" y="112" width="396" height="386" rx="58" fill="url(#window)"/>
+      <path d="M528 170C528 138 554 112 586 112H866C898 112 924 138 924 170V210H528V170Z" fill="#FFFFFF" opacity="0.58"/>
+      <circle cx="578" cy="160" r="12" fill="#FF6A7A"/>
+      <circle cx="616" cy="160" r="12" fill="#FFCF5C"/>
+      <circle cx="654" cy="160" r="12" fill="#55D98B"/>
+      <rect x="580" y="274" width="190" height="24" rx="12" fill="#C4773F"/>
+      <rect x="580" y="322" width="244" height="16" rx="8" fill="#8D8A78" opacity="0.48"/>
+      <rect x="580" y="362" width="208" height="16" rx="8" fill="#8D8A78" opacity="0.34"/>
+      <rect x="580" y="402" width="158" height="16" rx="8" fill="#8D8A78" opacity="0.24"/>
+      <rect x="580" y="446" width="100" height="18" rx="9" fill="#C4773F" opacity="0.68"/>
+    </g>
+
+    <g filter="url(#shadow)">
+      <rect x="528" y="526" width="396" height="386" rx="58" fill="url(#window)"/>
+      <path d="M528 584C528 552 554 526 586 526H866C898 526 924 552 924 584V624H528V584Z" fill="#FFFFFF" opacity="0.58"/>
+      <circle cx="578" cy="574" r="12" fill="#FF6A7A"/>
+      <circle cx="616" cy="574" r="12" fill="#FFCF5C"/>
+      <circle cx="654" cy="574" r="12" fill="#55D98B"/>
+      <rect x="580" y="686" width="164" height="24" rx="12" fill="#5B6755"/>
+      <rect x="580" y="734" width="244" height="16" rx="8" fill="#8D8A78" opacity="0.48"/>
+      <rect x="580" y="774" width="208" height="16" rx="8" fill="#8D8A78" opacity="0.34"/>
+      <rect x="580" y="814" width="158" height="16" rx="8" fill="#8D8A78" opacity="0.24"/>
+      <rect x="580" y="858" width="100" height="18" rx="9" fill="#5B6755" opacity="0.68"/>
+    </g>
+  </g>
+
+  <g filter="url(#badgeShadow)">
+    <rect x="672" y="804" width="244" height="104" rx="34" fill="url(#proBadge)" stroke="#F6C66B" stroke-width="8"/>
+    <text x="794" y="879" text-anchor="middle" fill="#FFFFFF" font-family="SF Pro Display, Helvetica Neue, sans-serif" font-size="58" font-weight="800" letter-spacing="4">PRO</text>
+  </g>
+</svg>

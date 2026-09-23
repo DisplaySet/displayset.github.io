@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="DisplayPilot manages window layouts and app workspace sets on macOS, powered by your DisplayPreset purchase.">
+  <title>DisplayPilot — Window Layouts and Workspace Sets for Mac</title>
+  <link rel="stylesheet" href="styles.css?v=2">
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="index.html"><img src="assets/displaypilot-icon.png" width="32" height="32" alt="">DisplayPilot</a>
+    <input type="checkbox" id="nav-toggle" class="nav-menu-toggle" aria-label="Toggle navigation menu">
+    <label for="nav-toggle" class="nav-menu-btn" aria-hidden="true">
+      <span class="icon-open">☰</span>
+      <span class="icon-close">✕</span>
+    </label>
+    <nav aria-label="Primary">
+      <a href="index.html">DisplayPreset</a>
+      <a href="displaypilot.html">DisplayPilot</a>
+      <a href="#how-it-works">How It Works</a>
+      <a href="guide.html">Guide</a>
+      <a href="support.html">Support</a>
+      <a href="zh-hans-displaypilot.html">中文</a>
+    </nav>
+  </header>
+  <main>
+    <section class="hero">
+      <img class="hero-icon" src="assets/displaypilot-icon.png" width="88" height="88" alt="DisplayPilot icon">
+      <div class="eyebrow">macOS window and workspace utility</div>
+      <h1>Restore desktop clarity and focus in one click.</h1>
+      <p class="lede">No more messy windows every time you connect or unplug displays. DisplayPilot remembers your ideal window layout and app setups across all monitors, returning you instantly to deep work.</p>
+      <div class="actions">
+        <a class="button primary" href="https://github.com/DisplaySet/displayset.github.io/releases/latest/download/DisplayPilot.dmg">Download DisplayPilot for Mac</a>
+        <a class="button secondary" href="https://apps.apple.com/app/id6804091344">Get DisplayPreset on App Store</a>
+      </div>
+      <p class="note">DisplayPilot requires Accessibility permissions for window positioning and reads authorization from DisplayPreset on the same Mac.</p>
+    </section>
+
+    <section id="features">
+      <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(230px,1fr));">
+        <article>
+          <div class="icon">⊞</div>
+          <h2>Smart Window Snapping</h2>
+          <p>Stop dragging and resizing windows by hand. Capture coordinates and screen zones for all open apps and restore them instantly.</p>
+        </article>
+        <article>
+          <div class="icon">🗂</div>
+          <h2>Task Workspaces</h2>
+          <p>Group dedicated apps and layouts for coding, writing, design, or meetings, transitioning seamlessly between workflow contexts.</p>
+        </article>
+        <article>
+          <div class="icon">⚡️</div>
+          <h2>Instant Menu Bar Access</h2>
+          <p>Right-click the menu bar icon anytime to switch display setups, layouts, or workspaces without interrupting your focus.</p>
+        </article>
+        <article>
+          <div class="icon">🔒</div>
+          <h2>100% Local & Private</h2>
+          <p>Operates entirely on your device with no accounts, telemetry, or remote servers, verified locally via DisplayPreset.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="screenshots">
+      <h2>Crafted for clarity and focus.</h2>
+      <div class="screenshot-grid">
+        <figure>
+          <img src="assets/screenshots/displaypilot-layouts-en.png" alt="DisplayPilot Window Layouts screen">
+          <figcaption>
+            <strong>Window Layouts</strong>
+            <span>Assign running application windows into clean, dedicated display zones.</span>
+          </figcaption>
+        </figure>
+        <figure>
+          <img src="assets/screenshots/displaypilot-workspaces-en.png" alt="DisplayPilot Workspace Sets screen">
+          <figcaption>
+            <strong>Workspace Sets</strong>
+            <span>One-click restoration of multi-display profiles alongside designated app window sets.</span>
+          </figcaption>
+        </figure>
+        <figure>
+          <img src="assets/screenshots/displaypilot-menu-en.png" alt="DisplayPilot Status Bar Menu screen">
+          <figcaption>
+            <strong>Status Bar Quick Menu</strong>
+            <span>Right-click the menu bar icon anytime to switch profiles, layouts, or workspace sets in an instant.</span>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="how-it-works" class="article" style="padding-top:40px; max-width:100%;">
+      <div class="eyebrow">Integration</div>
+      <h2>How DisplayPilot and DisplayPreset work together</h2>
+      <p>DisplayPreset and DisplayPilot are built to complement each other cleanly while we strictly adhere to Apple's App Store and macOS security guidelines.</p>
+
+      <div class="permission" style="margin-top:24px;">
+        <h3>Your Quick Setup Guide (5 Simple Steps)</h3>
+        <ol style="margin-top:16px; padding-left:20px; line-height:1.8; color:var(--ink);">
+          <li><strong>Install DisplayPreset:</strong> Download and install DisplayPreset from the Mac App Store.</li>
+          <li><strong>Complete purchase:</strong> Unlock unlimited profiles in DisplayPreset via standard in-app purchase.</li>
+          <li><strong>Install DisplayPilot:</strong> Download and launch DisplayPilot on the same Mac.</li>
+          <li><strong>Recheck authorization:</strong> In DisplayPilot, click “Recheck Authorization” (or let it verify on launch).</li>
+          <li><strong>Enjoy full power:</strong> DisplayPilot verifies the Apple-signed StoreKit receipt in local App Group storage, instantly unlocking your window and workspace capabilities.</li>
+        </ol>
+      </div>
+
+      <div style="margin-top:32px;">
+        <h3>Why did we create two separate apps?</h3>
+        <p><strong>DisplayPreset</strong> is available on the Mac App Store, sandboxed, and handles hardware display arrangement profiles and StoreKit purchases securely through Apple. <strong>DisplayPilot</strong> operates with macOS Accessibility permissions to manage third-party app windows and launch application workspaces. By sharing entitlements locally through Apple's App Group container, you get advanced desktop window orchestration without extra fees.</p>
+      </div>
+    </section>
+
+    <section class="permission" style="margin-top:60px;">
+      <h3>Limited-Time Promotion & Independent Licensing Notice</h3>
+      <p>DisplayPilot does not process payments, collect billing information, or run remote payment portals on this website. All transactions are handled securely through Apple's Mac App Store inside DisplayPreset.</p>
+      <p style="margin-top:12px;">As an introductory limited-time promotion, DisplayPilot currently recognizes valid DisplayPreset in-app purchases on the same Mac. Purchasing DisplayPreset is solely for unlocking DisplayPreset's own features and carries no perpetual licensing commitment or bundled entitlement for DisplayPilot. Promotional eligibility may change in future releases.</p>
+      <div style="margin-top:16px;">
+        <a class="button secondary" href="support.html#displaypilot-faq">Read Licensing & FAQ</a>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <span>© 2026 DisplayPreset & DisplayPilot</span>
+    <span>
+      <a href="index.html">DisplayPreset</a> ·
+      <a href="displaypilot.html">DisplayPilot</a> ·
+      <a href="guide.html">Guide</a> ·
+      <a href="support.html">Support</a> ·
+      <a href="privacy.html">Privacy</a> ·
+      <a href="terms.html">Terms</a> ·
+      <a href="zh-hans-displaypilot.html">中文</a>
+    </span>
+  </footer>
+</body>
+</html>

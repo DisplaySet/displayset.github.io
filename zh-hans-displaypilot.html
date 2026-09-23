@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="DisplayPilot 是 macOS 上的窗口布局与工作集工具，通过同一台 Mac 上的 DisplayPreset 购买授权解锁。">
+  <title>DisplayPilot — Mac 窗口布局与工作集工具</title>
+  <link rel="stylesheet" href="styles.css?v=2">
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="zh-hans.html"><img src="assets/displaypilot-icon.png" width="32" height="32" alt="">DisplayPilot</a>
+    <input type="checkbox" id="nav-toggle" class="nav-menu-toggle" aria-label="切换导航菜单">
+    <label for="nav-toggle" class="nav-menu-btn" aria-hidden="true">
+      <span class="icon-open">☰</span>
+      <span class="icon-close">✕</span>
+    </label>
+    <nav aria-label="主导航">
+      <a href="zh-hans.html">DisplayPreset</a>
+      <a href="zh-hans-displaypilot.html">DisplayPilot</a>
+      <a href="#how-it-works">协作方式</a>
+      <a href="zh-hans-guide.html">指南</a>
+      <a href="zh-hans-support.html">支持</a>
+      <a href="displaypilot.html">English</a>
+    </nav>
+  </header>
+  <main>
+    <section class="hero">
+      <img class="hero-icon" src="assets/displaypilot-icon.png" width="88" height="88" alt="DisplayPilot 图标">
+      <div class="eyebrow">macOS 窗口与工作集管理工具</div>
+      <h1>重塑你的 Mac 桌面秩序与专注力。</h1>
+      <p class="lede">插拔外接显示器、切换任务时，窗口不再散乱。DisplayPilot 助你一键记住并恢复各屏多应用的理想布局与工作环境，秒级进入专注心流。</p>
+      <div class="actions">
+        <a class="button primary" href="https://github.com/DisplaySet/displayset.github.io/releases/latest/download/DisplayPilot.dmg">下载 DisplayPilot for Mac</a>
+        <a class="button secondary" href="https://apps.apple.com/app/id6804091344">从 App Store 下载 DisplayPreset</a>
+      </div>
+      <p class="note">DisplayPilot 需要 macOS 辅助功能（Accessibility）权限调整窗口，并读取同一台 Mac 上的 DisplayPreset 授权完成解锁。</p>
+    </section>
+
+    <section id="features">
+      <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(230px,1fr));">
+        <article>
+          <div class="icon">⊞</div>
+          <h2>窗口智能归位</h2>
+          <p>告别手动拖拽缩放。捕获所有正在运行的 App 窗口坐标与尺寸，无论多乱，一键对齐归位。</p>
+        </article>
+        <article>
+          <div class="icon">🗂</div>
+          <h2>专属任务工作集</h2>
+          <p>为编程、写作、设计或视频会议量身定制应用组合与布局，快速在不同工作模式间无缝切换。</p>
+        </article>
+        <article>
+          <div class="icon">⚡️</div>
+          <h2>状态栏右键直达</h2>
+          <p>常驻菜单栏，右键轻点即可秒级切换显示器方案、布局或工作集，彻底摆脱繁琐主窗口打扰。</p>
+        </article>
+        <article>
+          <div class="icon">🔒</div>
+          <h2>隐私与本地运行</h2>
+          <p>纯本地运行，无需登录账号，无数据上传服务器；直接基于本地 DisplayPreset 授权安全解锁。</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="screenshots">
+      <h2>清晰直观的窗口与工作空间管理。</h2>
+      <div class="screenshot-grid">
+        <figure>
+          <img src="assets/screenshots/displaypilot-layouts-zh.png" alt="DisplayPilot 窗口布局界面">
+          <figcaption>
+            <strong>窗口布局（Window Layouts）</strong>
+            <span>将常用 App 一键放入当前显示器的分区，并在需要时精准恢复预设位置。</span>
+          </figcaption>
+        </figure>
+        <figure>
+          <img src="assets/screenshots/displaypilot-workspaces-zh.png" alt="DisplayPilot 工作集界面">
+          <figcaption>
+            <strong>工作集（Workspace Sets）</strong>
+            <span>一键同步恢复多显示器方案与各个屏幕上的完整 App 工作环境。</span>
+          </figcaption>
+        </figure>
+        <figure>
+          <img src="assets/screenshots/displaypilot-menu-zh.png" alt="DisplayPilot 状态栏右键快捷菜单界面">
+          <figcaption>
+            <strong>状态栏右键快捷菜单（Quick Menu）</strong>
+            <span>右键轻点菜单栏图标唤出快捷菜单，无需打开主窗口，极速切换显示器方案、布局与工作集。</span>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="how-it-works" class="article" style="padding-top:40px; max-width:100%;">
+      <div class="eyebrow">产品配合</div>
+      <h2>DisplayPilot 与 DisplayPreset 如何无缝配合</h2>
+      <p>DisplayPreset 和 DisplayPilot 分工清晰、互为补充，我们严格遵守 Apple App Store 规则与 macOS 安全沙盒规范。</p>
+
+      <div class="permission" style="margin-top:24px;">
+        <h3>你的快速上手步骤（5 步走）</h3>
+        <ol style="margin-top:16px; padding-left:20px; line-height:1.8; color:var(--ink);">
+          <li><strong>安装 DisplayPreset：</strong>从 Mac App Store 下载并安装 DisplayPreset。</li>
+          <li><strong>完成内购：</strong>在 DisplayPreset 内解锁无限显示器配置等功能。</li>
+          <li><strong>安装 DisplayPilot：</strong>在同一台 Mac 上安装并打开 DisplayPilot。</li>
+          <li><strong>检查授权：</strong>在 DisplayPilot 中点击“重新检查授权”（或在启动时自动校验）。</li>
+          <li><strong>自动解锁：</strong>DisplayPilot 读取本地 App Group 中经 Apple 签名的 StoreKit 交易收据并完成校验，为你开启全部窗口与工作集高级能力。</li>
+        </ol>
+      </div>
+
+      <div style="margin-top:32px;">
+        <h3>为什么我们设计为两个独立应用？</h3>
+        <p><strong>DisplayPreset</strong> 上架于 Mac App Store，受标准沙盒保护，专注于硬件多显示器拓扑配置的保存与恢复，并通过 Apple 官方渠道处理安全购买；<strong>DisplayPilot</strong> 则需要辅助功能（Accessibility）权限来实现更深度的第三方窗口定位与桌面工作集编排。通过本地 App Group 共享 Apple 签名凭据，你无需重复付费即可享受双重能力。</p>
+      </div>
+    </section>
+
+    <section class="permission" style="margin-top:60px;">
+      <h3>限时特惠与独立许可声明</h3>
+      <p>DisplayPilot 本网站不提供在线支付、不发售激活码，亦不直接处理付款。所有资金交易均通过 Mac App Store 在 DisplayPreset 内完成。</p>
+      <p style="margin-top:12px;">当前版本作为首发限时特惠，DisplayPilot 支持识别同一台 Mac 上的 DisplayPreset 官方内购。购买 DisplayPreset 仅代表解锁 DisplayPreset 自身功能，并不构成对 DisplayPilot 的永久捆绑销售或使用承诺。特惠互认政策可能随产品后续独立演进而调整。</p>
+      <div style="margin-top:16px;">
+        <a class="button secondary" href="zh-hans-support.html#displaypilot-faq">查看支持与常见问答</a>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <span>© 2026 DisplayPreset & DisplayPilot</span>
+    <span>
+      <a href="zh-hans.html">DisplayPreset</a> ·
+      <a href="zh-hans-displaypilot.html">DisplayPilot</a> ·
+      <a href="zh-hans-guide.html">指南</a> ·
+      <a href="zh-hans-support.html">支持</a> ·
+      <a href="privacy.html">隐私</a> ·
+      <a href="zh-hans-terms.html">条款</a> ·
+      <a href="displaypilot.html">English</a>
+    </span>
+  </footer>
+</body>
+</html>

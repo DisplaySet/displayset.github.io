@@ -6,11 +6,12 @@ The current App Store MVP is focused on saving and restoring display profiles on
 
 ## Pages
 
-- `index.html` / `zh-hans.html` — English and Simplified Chinese product pages
+- `index.html` / `zh-hans.html` — English and Simplified Chinese product pages for DisplayPreset
+- `displaypilot.html` / `zh-hans-displaypilot.html` — English and Simplified Chinese product pages for DisplayPilot
 - `guide.html` / `zh-hans-guide.html` — user guides
 - `privacy.html` — privacy policy
 - `terms.html` / `zh-hans-terms.html` — terms of use
-- `support.html` — support and troubleshooting
+- `support.html` / `zh-hans-support.html` — support, troubleshooting, and DisplayPilot authorization FAQ
 
 The site is published as a GitHub Pages static site at https://displayset.github.io/.
 
