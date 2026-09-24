@@ -1,0 +1,24 @@
+<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>DisplayPilot</title>
+        <item>
+            <title>1.0</title>
+            <pubDate>Thu, 24 Sep 2026 16:17:17 +0800</pubDate>
+            <sparkle:version>20260924.1616</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# DisplayPilot for macOS
+
+This release adds built-in update notifications and a manual “Check for Updates…” command. Automatic installation stays opt-in. It also improves the visibility and spacing of app icons in workspace layout choices.
+
+此版本加入内置更新提醒和“检查更新…”命令；自动安装仍由用户自行选择。同时优化了工作集布局选项中 App 图标的辨识度与间距。
+]]></description>
+            <enclosure url="https://github.com/DisplaySet/displayset.github.io/releases/download/displaypilot-20260924.1616/DisplayPilot.dmg" length="3774502" type="application/octet-stream" sparkle:edSignature="R+snpqMEqHdatMdNBk9gBjqIozoFhGuT/uyu1OKg3p2EY5qcYZGXddMrSdFyKaAm2pH2RMphjqiTOgb4EZ3XCA=="></enclosure>
+        </item>
+    </channel>
+</rss><!-- sparkle-signatures:
+edSignature: vZX7U3hrWtr8n7R2NvFt3+8DGZ2kEriBD1uh6ZPAuNAfk5tJudb1vaTCCNSWuvNlSH8ptv0hsRxHudNON/caAQ==
+length: 1590
+-->
