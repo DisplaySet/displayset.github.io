@@ -6,15 +6,19 @@
   <meta name="description" content="DisplayPilot 是 macOS 上的窗口布局与工作集工具，通过同一台 Mac 上的 DisplayPreset 购买授权解锁。">
   <title>DisplayPilot — Mac 窗口布局与工作集工具</title>
   <link rel="stylesheet" href="styles.css?v=2">
+  <script src="theme.js"></script>
 </head>
 <body>
   <header class="nav">
     <a class="brand" href="zh-hans.html"><img src="assets/displaypilot-icon.png" width="32" height="32" alt="">DisplayPilot</a>
     <input type="checkbox" id="nav-toggle" class="nav-menu-toggle" aria-label="切换导航菜单">
-    <label for="nav-toggle" class="nav-menu-btn" aria-hidden="true">
-      <span class="icon-open">☰</span>
-      <span class="icon-close">✕</span>
-    </label>
+    <div class="nav-actions">
+      <button class="theme-toggle" aria-label="切换浅色/深色主题" title="切换浅色/深色模式">🌙</button>
+      <label for="nav-toggle" class="nav-menu-btn" aria-hidden="true">
+        <span class="icon-open"><svg viewBox="0 0 24 24"><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/></svg></span>
+        <span class="icon-close"><svg viewBox="0 0 24 24"><line x1="18" x2="6" y1="6" y2="18"/><line x1="6" x2="18" y1="6" y2="18"/></svg></span>
+      </label>
+    </div>
     <nav aria-label="主导航">
       <a href="zh-hans.html">DisplayPreset</a>
       <a href="zh-hans-displaypilot.html">DisplayPilot</a>
@@ -40,22 +44,30 @@
     <section id="features">
       <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(230px,1fr));">
         <article>
-          <div class="icon">⊞</div>
+          <div class="icon">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect width="18" height="18" x="3" y="3" rx="2"/><path d="M3 9h18"/><path d="M9 21V9"/></svg>
+          </div>
           <h2>窗口智能归位</h2>
           <p>告别手动拖拽缩放。捕获所有正在运行的 App 窗口坐标与尺寸，无论多乱，一键对齐归位。</p>
         </article>
         <article>
-          <div class="icon">🗂</div>
+          <div class="icon">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.93a2 2 0 0 1-1.66-.9l-.82-1.2A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13c0 1.1.9 2 2 2Z"/><path d="M8 10h8"/><path d="M8 14h5"/></svg>
+          </div>
           <h2>专属任务工作集</h2>
           <p>为编程、写作、设计或视频会议量身定制应用组合与布局，快速在不同工作模式间无缝切换。</p>
         </article>
         <article>
-          <div class="icon">⚡️</div>
+          <div class="icon">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+          </div>
           <h2>状态栏右键直达</h2>
           <p>常驻菜单栏，右键轻点即可秒级切换显示器方案、布局或工作集，彻底摆脱繁琐主窗口打扰。</p>
         </article>
         <article>
-          <div class="icon">🔒</div>
+          <div class="icon">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect width="18" height="11" x="3" y="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+          </div>
           <h2>隐私与本地运行</h2>
           <p>纯本地运行，无需登录账号，无数据上传服务器；直接基于本地 DisplayPreset 授权安全解锁。</p>
         </article>
@@ -132,5 +144,6 @@
       <a href="displaypilot.html">English</a>
     </span>
   </footer>
+  <script src="lightbox.js" defer></script>
 </body>
 </html>

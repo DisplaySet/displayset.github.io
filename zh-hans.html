@@ -6,15 +6,19 @@
   <meta name="description" content="DisplayPreset 在 Mac 上保存和恢复多显示器配置。">
   <title>DisplayPreset — Mac 显示器配置</title>
   <link rel="stylesheet" href="styles.css?v=2">
+  <script src="theme.js"></script>
 </head>
 <body>
   <header class="nav">
     <a class="brand" href="zh-hans.html"><img src="assets/displaypreset-icon.png" width="32" height="32" alt="">DisplayPreset</a>
     <input type="checkbox" id="nav-toggle" class="nav-menu-toggle" aria-label="切换导航菜单">
-    <label for="nav-toggle" class="nav-menu-btn" aria-hidden="true">
-      <span class="icon-open">☰</span>
-      <span class="icon-close">✕</span>
-    </label>
+    <div class="nav-actions">
+      <button class="theme-toggle" aria-label="切换浅色/深色主题" title="切换浅色/深色模式">🌙</button>
+      <label for="nav-toggle" class="nav-menu-btn" aria-hidden="true">
+        <span class="icon-open"><svg viewBox="0 0 24 24"><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/></svg></span>
+        <span class="icon-close"><svg viewBox="0 0 24 24"><line x1="18" x2="6" y1="6" y2="18"/><line x1="6" x2="18" y1="6" y2="18"/></svg></span>
+      </label>
+    </div>
     <nav aria-label="主导航">
       <a href="zh-hans.html">DisplayPreset</a>
       <a href="zh-hans-displaypilot.html">DisplayPilot</a>
@@ -41,9 +45,27 @@
 
     <section id="features">
       <div class="grid">
-        <article><div class="icon">▣</div><h2>显示器配置</h2><p>为 Mac 当前连接的显示器保存命名配置，需要时即可恢复。</p></article>
-        <article><div class="icon">↔</div><h2>稳定匹配</h2><p>配置使用 macOS 提供的显示器信息进行匹配，重新连接同一组显示器后即可快速恢复。</p></article>
-        <article><div class="icon">⌘</div><h2>本地优先</h2><p>配置保存在你的 Mac 上。需要备份或迁移时，可以导入和导出 JSON 文件。</p></article>
+        <article>
+          <div class="icon">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect width="20" height="14" x="2" y="3" rx="2"/><line x1="8" x2="16" y1="21" y2="21"/><line x1="12" x2="12" y1="17" y2="21"/></svg>
+          </div>
+          <h2>显示器配置</h2>
+          <p>为 Mac 当前连接的显示器保存命名配置，需要时即可恢复。</p>
+        </article>
+        <article>
+          <div class="icon">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m16 3 4 4-4 4"/><path d="M20 7H4"/><path d="m8 21-4-4 4-4"/><path d="M4 17h16"/></svg>
+          </div>
+          <h2>稳定匹配</h2>
+          <p>配置使用 macOS 提供的显示器信息进行匹配，重新连接同一组显示器后即可快速恢复。</p>
+        </article>
+        <article>
+          <div class="icon">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h2>本地优先</h2>
+          <p>配置保存在你的 Mac 上。需要备份或迁移时，可以导入和导出 JSON 文件。</p>
+        </article>
       </div>
     </section>
 
@@ -74,5 +96,6 @@
       <a href="index.html">English</a>
     </span>
   </footer>
+  <script src="lightbox.js" defer></script>
 </body>
 </html>
