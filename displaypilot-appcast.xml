@@ -1,8 +1,24 @@
-<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+<?xml version="1.0" standalone="yes"?>
+<!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
---><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+-->
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>DisplayPilot</title>
+        <item>
+            <title>1.0</title>
+            <pubDate>Thu, 26 Nov 2026 18:33:00 +0800</pubDate>
+            <sparkle:version>20261126.1831</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# DisplayPilot Pro — 2026-11-26
+
+Quickly move a running app's window to the display under the status menu. Each app appears once, with single-window layout choices and the existing multi-window selection flow. This release also improves window layout selection, display-profile-based common layouts, workspace set filtering, and status menu sizing.
+
+从状态栏菜单快速将运行中 App 的窗口移到当前显示器。每个 App 只显示一行，并提供单窗布局选项；多窗口时沿用窗口布局的选择流程。此版本还改进窗口布局选择、按显示器方案筛选常用布局、工作集筛选和右键菜单尺寸。
+]]></description>
+            <enclosure url="https://github.com/DisplaySet/displayset.github.io/releases/download/displaypilot-20261126.1831/DisplayPilot.dmg" length="4240729" type="application/octet-stream" sparkle:edSignature="fnd3Qm3c7LVqWscMDh3eBxbLp0bSIv46skmVbb7Ag6nJwKHi5+wEYt+doZ9WyfONfUvBsoYDG/47chCIlzqDDw=="/>
+        </item>
         <item>
             <title>1.0</title>
             <pubDate>Sat, 17 Oct 2026 08:48:22 +0800</pubDate>
@@ -15,10 +31,11 @@ This release adds Workspace Sets for saving and applying a display profile toget
 
 此版本新增工作集，可将显示器方案与窗口布局组合保存并一键应用；常用工作集和窗口布局更易查找。右键菜单增加小、中、大尺寸及实时预览，也可从显示器方案、窗口布局和工作集分区快捷启动对应的另存或新建流程。
 ]]></description>
-            <enclosure url="https://github.com/DisplaySet/displayset.github.io/releases/download/displaypilot-20261017.0845/DisplayPilot.dmg" length="3877713" type="application/octet-stream" sparkle:edSignature="DsEX8sj400cSTD7Xr6+VKT3Wq+0rqDl5PsfifOCKn4Yl0YyLZZ5widwNCpU8Su0FL35X8i8HywZMygwkAVtMCQ=="></enclosure>
+            <enclosure url="https://github.com/DisplaySet/displayset.github.io/releases/download/displaypilot-20261017.0845/DisplayPilot.dmg" length="3877713" type="application/octet-stream" sparkle:edSignature="DsEX8sj400cSTD7Xr6+VKT3Wq+0rqDl5PsfifOCKn4Yl0YyLZZ5widwNCpU8Su0FL35X8i8HywZMygwkAVtMCQ=="/>
         </item>
     </channel>
-</rss><!-- sparkle-signatures:
-edSignature: GBWQKc5zXVK+9JWdx4fSLL0e3mwd4rgWITO4YB6mcsPR6HG1R5IvHkBg0ceKyD5Xc5JNDXanS7wt2eKcwkdfCA==
-length: 1869
+</rss>
+<!-- sparkle-signatures:
+edSignature: Hy4noCPJ4dQVts4gLTbpze6jsP2OwkW37rWtqbHHVmI6Mtvf93JnoddwCZDq36BPCaOeGPQ4XdOW9CGwUPqwCQ==
+length: 3231
 -->
