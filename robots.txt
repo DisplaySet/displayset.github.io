@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://displayset.github.io/sitemap.xml
